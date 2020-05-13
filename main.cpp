@@ -48,6 +48,10 @@ int main() {
 	Vec3 = Vec1 + Vec2;
 	cout << "operator + " << Vec3 << endl;
 	Vec1.SetCols2(1, 3);
+	Vec4 = matr4 * Vec4;
+	double tmp = Vec1 * Vec2;
+	cout << Vec4;
+	cout << tmp;
 	Vector<double> Vec5(1, 10);
 	cout << BubbleSort(Vec5) << endl;
 	cout << InsertionSort(Vec5) << endl;
